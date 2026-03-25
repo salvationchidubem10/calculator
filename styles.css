@@ -1,0 +1,11 @@
+button{
+    text-align: center;
+    border-radius: 7px;
+    border: solid 2px white;
+    padding: 4px 0;
+    font-size: large;
+}
+button:hover{
+    background-color: white;
+    color: blue;
+}

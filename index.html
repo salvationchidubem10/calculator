@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-blue-900 flex justify-center">
+
+    <div class="overflow-hidden py-8 border-2 border-white px-6 mt-8 rounded-lg">
+        <div class="flex justify-center font-bold text-3xl text-white">Calculator</div>
+        <input type="text" class="bg-white w-64 h-36 text-black text-3xl font-medium text-right pr-3" readonly placeholder="0" id="screen">
+        <div class=" w-84 pt-6">
+            <div class=" grid grid-cols-4 text-white" id="btnn"></div>
+        </div>
+        
+    </div>
+
+    <script src="./ftn.js"></script>
+</body>
+</html>
